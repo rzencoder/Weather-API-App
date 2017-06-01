@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  font-size: 20px;
+  @media (max-width: 650px){
+    font-size: 16px;
+  }
+  @media (max-width: 500px){
+    font-size: 12px;
+  }
+  @media (max-width: 370px){
+    font-size: 11px;
+  }
+}
+
+body {
+  color: white;
+  margin: 0;
+  font-family: 'Baloo Chettan', cursive;
+  background: linear-gradient(60deg, #b34700, #ff751a);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+header {
+  font-size: 5.5rem;
+  img {
+    width: 100px;
+    margin: 0 -1.5%;
+    @media (max-width: 500px){
+      width: 60px;
+    }
+  }
+  p {
+    margin-top: -2%;
+    font-size: 1.5rem;
+  }
+}
+
+.location {
+  margin-top: 20px;
+  font-size: 3.5rem;
+}
+
+.country {
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+}
+
+.data {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.data > div {
+  margin-left: 4%;
+  font-size: 2rem;
+}
+
+.btn {
+  margin-left: 10px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+footer {
+  margin-top: 10px;
+  font-size: .8rem;
+  a {
+    color: white;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
